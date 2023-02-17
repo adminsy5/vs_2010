@@ -25,8 +25,6 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBoxPolicyNumber = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBoxSearch = New System.Windows.Forms.TextBox()
         Me.ButtonSave = New System.Windows.Forms.Button()
         Me.ButtonUpdate = New System.Windows.Forms.Button()
         Me.ButtonClear = New System.Windows.Forms.Button()
@@ -41,6 +39,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBoxPolicyHolderName = New System.Windows.Forms.TextBox()
         Me.DataGridViewReader = New System.Windows.Forms.DataGridView()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridViewReader, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -64,7 +63,6 @@ Partial Class Form1
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.TextBoxSearch)
         Me.GroupBox1.Controls.Add(Me.ButtonSave)
         Me.GroupBox1.Controls.Add(Me.ButtonUpdate)
         Me.GroupBox1.Controls.Add(Me.ButtonClear)
@@ -86,24 +84,6 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "March/April 2018"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.Coral
-        Me.Label6.Location = New System.Drawing.Point(652, 46)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(351, 51)
-        Me.Label6.TabIndex = 16
-        Me.Label6.Text = "Insurance Policy "
-        '
-        'TextBoxSearch
-        '
-        Me.TextBoxSearch.Location = New System.Drawing.Point(394, 583)
-        Me.TextBoxSearch.Name = "TextBoxSearch"
-        Me.TextBoxSearch.Size = New System.Drawing.Size(954, 31)
-        Me.TextBoxSearch.TabIndex = 15
         '
         'ButtonSave
         '
@@ -228,6 +208,17 @@ Partial Class Form1
         Me.DataGridViewReader.Size = New System.Drawing.Size(1764, 223)
         Me.DataGridViewReader.TabIndex = 3
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Coral
+        Me.Label6.Location = New System.Drawing.Point(652, 46)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(351, 51)
+        Me.Label6.TabIndex = 16
+        Me.Label6.Text = "Insurance Policy "
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
@@ -246,8 +237,6 @@ Partial Class Form1
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents TextBoxPolicyNumber As System.Windows.Forms.TextBox
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
-    Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents TextBoxSearch As System.Windows.Forms.TextBox
     Friend WithEvents ButtonSave As System.Windows.Forms.Button
     Friend WithEvents ButtonUpdate As System.Windows.Forms.Button
     Friend WithEvents ButtonClear As System.Windows.Forms.Button
@@ -262,5 +251,6 @@ Partial Class Form1
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents TextBoxPolicyHolderName As System.Windows.Forms.TextBox
     Friend WithEvents DataGridViewReader As System.Windows.Forms.DataGridView
+    Friend WithEvents Label6 As System.Windows.Forms.Label
 
 End Class

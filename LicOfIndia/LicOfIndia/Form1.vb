@@ -41,6 +41,7 @@ Public Class Form1
         cmd.Parameters.AddWithValue("@polyear", polyear)
         Try
             cmd.ExecuteNonQuery()
+            MsgBox("Inserted!")
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -54,9 +55,38 @@ Public Class Form1
     End Sub
 
     Private Sub ButtonSave_Click(sender As System.Object, e As System.EventArgs) Handles ButtonSave.Click
+        If TextBoxPolicyNumber.Text = "" And TextBoxPolicyHolderName.Text = "" And TextBoxNoOfYear.Text = "" And TextBoxPremiumofAmt.Text = "" And ComboBoxPolicyType.Text = "" Then
+            MsgBox("All Fields Are Empty")
+            Return
+        End If
+
+        If TextBoxPolicyNumber.Text = "" Then
+            MsgBox("Plese Enter Policy Number")
+            Return
+        End If
+
+        If TextBoxPolicyHolderName.Text = "" Then
+            MsgBox("Plese Enter Policy Holder Nname")
+            Return
+        End If
+
+        If TextBoxPremiumofAmt.Text = "" Then
+            MsgBox("Plese Enter Policy Amount")
+            Return
+        End If
+
+        If TextBoxNoOfYear.Text = "" Then
+            MsgBox("Plese Enter The Numbers of Year")
+            Return
+        End If
+        If ComboBoxPolicyType.Text = "- Choose Item -" Or ComboBoxPolicyType.Text = "" Then
+            MsgBox("Choose Correct type of Policy")
+            Return
+        End If
         Connection()
         createTable()
         InsertData()
+        ButtonClear_Click(sender, e)
         showData()
     End Sub
 
@@ -73,7 +103,6 @@ Public Class Form1
         TextBoxPolicyHolderName.Clear()
         TextBoxPolicyNumber.Clear()
         TextBoxPremiumofAmt.Clear()
-        TextBoxSearch.Clear()
         ComboBoxPolicyType.SelectedItem = "- Choose Item -"
     End Sub
 
@@ -113,6 +142,34 @@ Public Class Form1
     End Sub
 
     Private Sub ButtonUpdate_Click(sender As System.Object, e As System.EventArgs) Handles ButtonUpdate.Click
+        If TextBoxPolicyNumber.Text = "" And TextBoxPolicyHolderName.Text = "" And TextBoxNoOfYear.Text = "" And TextBoxPremiumofAmt.Text = "" And ComboBoxPolicyType.Text = "" Then
+            MsgBox("All Fields Are Empty")
+            Return
+        End If
+
+        If TextBoxPolicyNumber.Text = "" Then
+            MsgBox("Plese Enter Policy Number")
+            Return
+        End If
+
+        If TextBoxPolicyHolderName.Text = "" Then
+            MsgBox("Plese Enter Policy Holder Nname")
+            Return
+        End If
+
+        If TextBoxPremiumofAmt.Text = "" Then
+            MsgBox("Plese Enter Policy Amount")
+            Return
+        End If
+
+        If TextBoxNoOfYear.Text = "" Then
+            MsgBox("Plese Enter The Numbers of Year")
+            Return
+        End If
+        If ComboBoxPolicyType.Text = "- Choose Item -" Or ComboBoxPolicyType.Text = "" Then
+            MsgBox("Choose Correct type of Policy")
+            Return
+        End If
         Connection()
 
         Dim polnum As Integer = Convert.ToInt32(TextBoxPolicyNumber.Text)
@@ -129,6 +186,7 @@ Public Class Form1
         cmd.Parameters.AddWithValue("@polyear", polyear)
         Try
             cmd.ExecuteNonQuery()
+            MsgBox("Update!")
             ButtonRefresh_Click(sender, e)
         Catch ex As Exception
             MsgBox(ex.Message)
