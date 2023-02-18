@@ -1,0 +1,15 @@
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\bin\Debug\DemoRDLC.mdf
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\bin\Debug\DemoRDLC_log.ldf
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\bin\Debug\rdlcDemo.exe.config
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\bin\Debug\rdlcDemo.exe
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\bin\Debug\rdlcDemo.pdb
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\bin\Debug\rdlcDemo.xml
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\obj\x86\Debug\rdlcDemo.vbprojResolveAssemblyReference.cache
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\obj\x86\Debug\rdlcDemo.Form1.resources
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\obj\x86\Debug\rdlcDemo.Resources.resources
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\obj\x86\Debug\rdlcDemo.vbproj.GenerateResource.Cache
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\obj\x86\Debug\RdlCompile.cache
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\obj\x86\Debug\RdlCompile.compiled
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\obj\x86\Debug\rdlcDemo.exe
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\obj\x86\Debug\rdlcDemo.xml
+C:\Users\mpiyu\AppData\Local\Temporary Projects\rdlcDemo\obj\x86\Debug\rdlcDemo.pdb

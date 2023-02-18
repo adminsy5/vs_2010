@@ -1,0 +1,9 @@
+C:\Users\mpiyu\AppData\Local\Temporary Projects\AdminBca\bin\Debug\AdminBca.exe
+C:\Users\mpiyu\AppData\Local\Temporary Projects\AdminBca\bin\Debug\AdminBca.pdb
+C:\Users\mpiyu\AppData\Local\Temporary Projects\AdminBca\bin\Debug\AdminBca.xml
+C:\Users\mpiyu\AppData\Local\Temporary Projects\AdminBca\obj\x86\Debug\AdminBca.Form1.resources
+C:\Users\mpiyu\AppData\Local\Temporary Projects\AdminBca\obj\x86\Debug\AdminBca.Resources.resources
+C:\Users\mpiyu\AppData\Local\Temporary Projects\AdminBca\obj\x86\Debug\AdminBca.vbproj.GenerateResource.Cache
+C:\Users\mpiyu\AppData\Local\Temporary Projects\AdminBca\obj\x86\Debug\AdminBca.exe
+C:\Users\mpiyu\AppData\Local\Temporary Projects\AdminBca\obj\x86\Debug\AdminBca.xml
+C:\Users\mpiyu\AppData\Local\Temporary Projects\AdminBca\obj\x86\Debug\AdminBca.pdb
