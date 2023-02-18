@@ -20,3 +20,5 @@ B:\404-Vb.Net\vs_2010\LicOfIndia\LicOfIndia\bin\Debug\LicOfIndia.xml
 B:\404-Vb.Net\vs_2010\LicOfIndia\LicOfIndia\obj\x86\Debug\LicOfIndia.Form1.resources
 B:\404-Vb.Net\vs_2010\LicOfIndia\LicOfIndia\obj\x86\Debug\LicOfIndia.Resources.resources
 B:\404-Vb.Net\vs_2010\LicOfIndia\LicOfIndia\obj\x86\Debug\LicOfIndia.vbproj.GenerateResource.Cache
+B:\404-Vb.Net\vs_2010\LicOfIndia\LicOfIndia\obj\x86\Debug\LicOfIndia.vbproj.AssemblyReference.cache
+B:\404-Vb.Net\vs_2010\LicOfIndia\LicOfIndia\obj\x86\Debug\LicOfIndia.vbproj.CoreCompileInputs.cache

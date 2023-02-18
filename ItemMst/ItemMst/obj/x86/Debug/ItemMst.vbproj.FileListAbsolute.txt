@@ -1,0 +1,11 @@
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\bin\Debug\Database1.mdf
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\bin\Debug\Database1_log.ldf
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\bin\Debug\ItemMst.exe
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\bin\Debug\ItemMst.pdb
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\bin\Debug\ItemMst.xml
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\obj\x86\Debug\ItemMst.Form1.resources
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\obj\x86\Debug\ItemMst.Resources.resources
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\obj\x86\Debug\ItemMst.vbproj.GenerateResource.Cache
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\obj\x86\Debug\ItemMst.exe
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\obj\x86\Debug\ItemMst.xml
+B:\404-Vb.Net\vs_2010\ItemMst\ItemMst\obj\x86\Debug\ItemMst.pdb
