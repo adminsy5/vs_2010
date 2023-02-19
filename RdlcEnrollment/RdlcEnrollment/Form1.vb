@@ -203,7 +203,7 @@ Public Class Form1
 
     Private Sub CheckBoxUnpaid_CheckedChanged_1(sender As System.Object, e As System.EventArgs) Handles CheckBoxUnpaid.CheckedChanged
         connection()
-        ad = New SqlDataAdapter("select * from enrollment", selectConnection:=con)
+        ad = New SqlDataAdapter("SELECT * FROM  Enrollment WHERE (amt_paid = 0) AND (DATEDIFF(month, CONVERT(date, DATEADD(MONTH, 1, GETDATE())), DATEADD(month, duration, date1)) = duration)", selectConnection:=con)
         dt = New DataSet
         Try
             ad.Fill(dt, "Enrollment")
@@ -215,7 +215,7 @@ Public Class Form1
 
     Private Sub ButtonRp_Click(sender As System.Object, e As System.EventArgs) Handles ButtonRp.Click
         connection()
-        Dim str As String = "SELECT * FROM Enrollment WHERE (amt_paid = 0) AND (date1 BETWEEN CAST(DATEADD(s, - 1, DATEADD(mm, DATEDIFF(m, 0, GETDATE()) + 1, 0)) AS date) AND CAST(DATEADD(s, - 1, DATEADD(mm, DATEDIFF(m, 0, GETDATE()) + 2, 0)) AS date))"
+        Dim str As String = "SELECT * FROM  Enrollment WHERE (amt_paid = 0) AND (DATEDIFF(month, CONVERT(date, DATEADD(MONTH, 1, GETDATE())), DATEADD(month, duration, date1)) = duration)"
         Dim ad As SqlDataAdapter = New SqlDataAdapter(str, selectConnection:=con)
         Dim dt As DataTable = New DataTable
         ad.Fill(dt)

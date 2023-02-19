@@ -24,3 +24,4 @@ B:\404-Vb.Net\vs_2010\RdlcEnrollment\RdlcEnrollment\obj\x86\Debug\RdlcEnrollment
 B:\404-Vb.Net\vs_2010\RdlcEnrollment\RdlcEnrollment\obj\x86\Debug\RdlcEnrollment.vbproj.GenerateResource.Cache
 B:\404-Vb.Net\vs_2010\RdlcEnrollment\RdlcEnrollment\obj\x86\Debug\RdlCompile.cache
 B:\404-Vb.Net\vs_2010\RdlcEnrollment\RdlcEnrollment\obj\x86\Debug\RdlCompile.compiled
+B:\404-Vb.Net\vs_2010\RdlcEnrollment\RdlcEnrollment\obj\x86\Debug\RdlcEnrollment.vbprojResolveAssemblyReference.cache
